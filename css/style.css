@@ -632,12 +632,13 @@ body {
 
 .page-footer-conteiner{
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
 }
 
-.block-contact-footer{
+/* .block-contact-footer{
     margin-right: 70px;
-}
+} */
 
 .logo-footer {
     display: block;
@@ -689,6 +690,7 @@ body {
 .social-list-icon-footer{
     fill: var(--secondory-color);
 }
+
 
 /* --/footer-- */
 
